@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary"
-    tools:context=".MateriActivity">
+    tools:context=".MatkimActivity">
+
 
     <ImageView
         android:id="@+id/bckIcon"
@@ -29,47 +30,44 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/fungsi"
+        android:id="@+id/sel"
         android:layout_width="369dp"
         android:layout_height="130dp"
         android:layout_marginTop="148dp"
-        android:src="@drawable/img_7"
+        android:src="@drawable/sel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.595"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/lingkaran"
+        android:id="@+id/anatomi"
         android:layout_width="373dp"
         android:layout_height="123dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/img_8"
+        android:src="@drawable/anatomi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fungsi" />
+        app:layout_constraintTop_toBottomOf="@+id/sel" />
 
     <ImageView
-        android:id="@+id/deret"
+        android:id="@+id/darah"
         android:layout_width="372dp"
         android:layout_height="132dp"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/img_9"
+        android:src="@drawable/darah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lingkaran" />
+        app:layout_constraintTop_toBottomOf="@+id/anatomi" />
 
     <ImageView
-        android:id="@+id/matriks"
+        android:id="@+id/pernpasan"
         android:layout_width="376dp"
         android:layout_height="138dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/img_10"
+        android:src="@drawable/pernapasan"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/deret" />
+        app:layout_constraintTop_toBottomOf="@+id/darah" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,8 +34,8 @@
 
     <ImageView
         android:id="@+id/mtk"
-        android:layout_width="372dp"
-        android:layout_height="139dp"
+        android:layout_width="390dp"
+        android:layout_height="141dp"
         android:layout_marginTop="32dp"
         android:src="@drawable/img_1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,35 +45,34 @@
 
     <ImageView
         android:id="@+id/kimia"
-        android:layout_width="370dp"
-        android:layout_height="134dp"
+        android:layout_width="390dp"
+        android:layout_height="141dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/img_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mtk" />
 
     <ImageView
         android:id="@+id/biolog"
-        android:layout_width="374dp"
-        android:layout_height="130dp"
+        android:layout_width="390dp"
+        android:layout_height="141dp"
         android:layout_marginTop="28dp"
         android:src="@drawable/img_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kimia" />
 
     <ImageView
         android:id="@+id/btnPlus"
-        android:layout_width="47dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="60dp"
-        android:background="@color/primary"
+        android:layout_width="109dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="12dp"
         android:src="@drawable/plus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/biolog" />
 

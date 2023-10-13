@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Euvoria"
         tools:targetApi="31">
         <activity
+            android:name=".InbiActivity"
+            android:exported="false"
+            android:label="@string/title_activity_inbi"
+            android:theme="@style/Theme.Euvoria" />
+        <activity
+            android:name=".InkimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MatbiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MatkimActivity"
+            android:exported="false" />
+        <activity
             android:name=".MateriActivity"
             android:exported="false" />
         <activity
